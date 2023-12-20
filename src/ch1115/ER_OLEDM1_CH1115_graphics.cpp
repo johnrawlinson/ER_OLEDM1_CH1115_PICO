@@ -10,6 +10,8 @@
 #include "../include/ch1115/ER_OLEDM1_CH1115_font.hpp"
 #include "../include/ch1115/ER_OLEDM1_CH1115.hpp"
 
+#define swap(a, b) { int16_t t = a; a = b; b = t; }
+
 ERMCH1115_graphics::ERMCH1115_graphics(int16_t w, int16_t h):
 	WIDTH(w), HEIGHT(h)
 {

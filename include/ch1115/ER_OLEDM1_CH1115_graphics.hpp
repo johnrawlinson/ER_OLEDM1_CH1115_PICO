@@ -11,8 +11,6 @@
 #include <cmath> // for abs function 
 #include "ch1115/ER_OLEDM1_CH1115_Print.hpp"
 
-#define swap(a, b) { int16_t t = a; a = b; b = t; }
-
 typedef enum 
 {
     OLEDFontType_Default = 1,
